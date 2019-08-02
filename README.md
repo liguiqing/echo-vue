@@ -12,7 +12,7 @@
 ln -s /home/xxoo/github/echo-vue/ /home/xxoo/nginx/html/vue
 ```
 鸣谢  
-[Require-vuejs](  https://github.com/liguiqing/require-vuejs "Require-vuejs")  
+[Require-vuejs]( https://github.com/edgardleal/require-vuejs  "Require-vuejs")  
 [ES6](  https://github.com/guybedford/es6 "ES6")
 
 
