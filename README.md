@@ -12,6 +12,7 @@
  ```bash  
 ln -s /home/xxoo/github/echo-vue/ /home/xxoo/nginx/html/vue
 ```
+至于requirejs的打包，请自行移步到度娘家一窥便知。  
 当然要使用Vue.js React这些新潮玩意，最好还用Nodejs来处理，其实也不难几天时间就是可以掌握。
 
 鸣谢  
