@@ -9,15 +9,19 @@
 spring.mvc.static-path-pattern: /static/**   
 ```
 将轮子扔到static即可    
+
 独立时配置一个web服务器虚拟目录到轮子目录即可， 如tomcat 在conf/Catalina/localhost建个vue.xml 配置为  
   ```xml
 <Context docBase="/home/xxoo/github/echo-vue" reloadable="true"/>  
 ```
+
 若是Nnginx 直接软连接到 html目录就好  
  ```bash  
 ln -s /home/xxoo/github/echo-vue/ /home/xxoo/nginx/html/vue
 ```
+
 至于requirejs的打包，请自行移步到度娘家一窥便知。  
+
 当然要使用Vue.js React这些新潮玩意，最好还用Nodejs来处理，其实也不难几天时间就是可以掌握。
 
 鸣谢  
