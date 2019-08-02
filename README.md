@@ -6,6 +6,8 @@
 独立时配置一个web服务器虚拟目录到轮子目录即可， 如tomcat 在conf/Catalina/localhost建个vue.xml 配置为  
   ```xml
 <Context docBase="/home/xxoo/github/echo-vue" reloadable="true"/>  
+```
 若是Nnginx 直接软连接到 html目录就好  
  ```bash  
 ln -s /home/xxoo/github/echo-vue/ /home/xxoo/nginx/html/vue
+```
