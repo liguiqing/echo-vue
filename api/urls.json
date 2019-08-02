@@ -1,0 +1,14 @@
+{
+  "urls": [
+    {
+      "name": "nav",
+      "url" : "api/json/navs.json",
+      "method" : "GET"
+    },
+    {
+      "name": "table",
+      "url" : "api/json/tableData.json",
+      "method" : "GET"
+    }
+  ]
+}
