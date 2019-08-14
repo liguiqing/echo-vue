@@ -1,0 +1,24 @@
+{
+  "navs": [
+    {
+      "to": "/home",
+      "text": "Home",
+      "exact": true
+    },
+    {
+      "to": "/nav1",
+      "text": "Nav11",
+      "exact": false
+    },
+    {
+      "to": "/nav2",
+      "text": "Nav21",
+      "exact": false
+    },
+    {
+      "to": "/nav3",
+      "text": "Nav31",
+      "exact": false
+    }
+  ]
+}
